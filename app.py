@@ -168,4 +168,4 @@ while True:
     if user_input.lower() == "exit":
         break
 
-    asyncio.run(run("llama3.1", user_input))
+    asyncio.run(run("llama3.2:3b-instruct-fp16", user_input))
